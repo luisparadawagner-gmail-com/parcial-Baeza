@@ -11,6 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { InscribirComponent } from './inscribir/inscribir.component';
 import { ConsultarComponent } from './consultar/consultar.component';
 import { ConectaService } from './servicios/conecta.service';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { ConectaService } from './servicios/conecta.service';
     ReactiveFormsModule,
     FormsModule,
     MatButtonModule,
-    HttpClientModule
+    HttpClientModule,
+    MatFormFieldModule
 
   ],
 

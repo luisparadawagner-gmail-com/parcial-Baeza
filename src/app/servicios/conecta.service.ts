@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
 export class ConectaService {
 	constructor(private httpClient: HttpClient) {}
 
-	getPersonas(): Observable<any> {
+	getAlumnos(): Observable<any> {
 		return this.httpClient.get('./../assets/personas.json');
 	}
 
